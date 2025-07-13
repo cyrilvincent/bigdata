@@ -3,10 +3,11 @@ import matplotlib.pyplot as plt
 import pymongo
 
 with pymongo.MongoClient('localhost', 27017) as client:
-    db = client.test
-    cursor = db.house.find()
-    house_data = pd.DataFrame(list(cursor))
+    db = client.local
+    rows = db.house.find()
+    dataframe = pd.DataFrame(list(rows))
+    print(dataframe.describe())
 
-plt.plot(house_data['surface'], house_data['loyer'], 'ro', markersize=4)
+plt.scatter(dataframe['surface'], dataframe['loyer'])
 plt.show()
 
