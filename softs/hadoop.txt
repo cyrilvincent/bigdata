@@ -1,0 +1,20 @@
+Hadoop
+======
+1/ Dezipper Hadoop.zip sur c:\
+2/ Dans c:\hadoop\bin\hdfs.cmd enlever le rem ligne 1
+4/ Ouvrir un console en mode admin
+5/ Démarrer CyrilStart.bat depuis la console
+6/ Exécuter hdfs namenode -format, remarqueer la création de c:\hdata
+7/ Depuis sbin/ démarrer startall.cmd depuis la console et attendre
+8/ Ouvrir dans Chrome http://localhost:50070 il s'agit du HDFS namenode
+9/ Ouvrir dans Chrome http://localhost:50075 il s'agit du HDFS datanodes
+10/ Ouvrir dans Chrome http://localhost:8088 il s'agit du cluster Hadoop
+11/ Cliquer sur Nodes puis sur le Node HTTP Adress, il s'agit du Node local Hadoop
+12/ Taper hdfs dfs -ls /s
+13/ Copier le fichier LICENCE.txt à la racine d'Hadoop avec hdfs dfs -copyFromLocal LICENSE.txt \
+14/ Copier les fichiers house/* dans /house/
+15/ Copier DaVinci.txt sur Hadoop dans /gutenberg/
+16/ Examiner iliad.mb.txt et 08_2_iliadx100.py et exécuter le script
+17/ Copier le fichier générer sur Hadoop dans /gutenberg/
+18/ Vérifier que tout soit bon avec hdfs dfs -ls /
+
