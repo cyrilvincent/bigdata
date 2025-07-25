@@ -15,9 +15,6 @@ with pymongo.MongoClient('localhost', 27017) as client:
     results = db.house.find({"surface": {"$gt": 200}}).sort("surface")
     print(f">200: {list(results)}")
 
-# Inserting
-# house = {"loyer": 999, "surface":999}
-# post_id = db.house.insert_one(house).inserted_id
 
 
 
