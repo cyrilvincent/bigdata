@@ -3,7 +3,6 @@ import boto3
 from botocore.client import Config
 import csv
 
-
 s3 = boto3.client(
     's3',
     endpoint_url='http://localhost:9000',

@@ -8,10 +8,11 @@ with sqlite3.connect("data/house/house.db3") as conn:
     sql = "select * from house"
     print(sql)
     cursor.execute(sql)
-    for row in cursor:
-        print(row)
+    # for row in cursor:
+    #     print(row)
 
     dataframe = pd.read_sql(sql, conn)
+    print(dataframe)
     print(dataframe.describe())
 
 plt.scatter(dataframe['surface'], dataframe['loyer'])

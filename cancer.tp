@@ -1,0 +1,46 @@
+TP1
+Cancer Breast
+Des données tabulées
+J'ai 32 colonnes en CSV
+J'ai 1 fichiers de 1Go
+Il est dans un datalake = Hadoop
+Je veux prédire un cancer (true, false) + erreur avec une accuracy > 95%
+
+Data scientist : Définit avec le métier l'indicateur de sortie = accuracy
+Définit avec le Data Steawart les data en input => CSV
+
+1/ DataMart = CSV
+2/ SQL ou Mongo
+3/ Data Scientist = Pandas en Python
+4/ Choix du modèle ET du framework, Machine Learning ET/OU Deep Learning
+5/ Frameworks : Scikit-learn, Tensorflow ou Pytorch
+
+TP2
+Idem mais avec des images
+1 TO d'images
+
+1/ DataMart = Image
+2/ Hadoop ou S3 ou Filesystem
+3/ Data Scientist = Pandas en Python
+4/ Deep Learning obligatoire
+5/ Tensorflow ou Pytorch
+
+TP3
+Assistance téléphonique + TeamViewer (video)
+Quelques To
+Détecté les mécontentements clients
+3 catégories : A=Good, B=Moyen C=Mauvais
+
+0/ LABELISATION de la DATA FIABLE
+1/ DataMart non structuré
+2/ Hadoop ou S3 ou Filesystem
+3/ Data Scientist = Pandas en Python
+4/ Deep Learning obligatoire
+5/ Tensorflow ou Pytorch
+
+TP4
+Assistance video
+Po
+100% BigData
+$$$$$
+

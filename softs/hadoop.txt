@@ -4,8 +4,8 @@ Hadoop
 2/ Dans c:\hadoop\bin\hdfs.cmd enlever le rem ligne 1
 4/ Ouvrir un console en mode admin
 5/ Démarrer CyrilStart.bat depuis la console
-6/ Exécuter hdfs namenode -format, remarqueer la création de c:\hdata
-7/ Depuis sbin/ démarrer startall.cmd depuis la console et attendre
+6/ Exécuter hdfs namenode -format, remarquer la création de c:\hdata
+7/ Depuis sbin/ démarrer start-all.cmd depuis la console et attendre
 8/ Ouvrir dans Chrome http://localhost:50070 il s'agit du HDFS namenode
 9/ Ouvrir dans Chrome http://localhost:50075 il s'agit du HDFS datanodes
 10/ Ouvrir dans Chrome http://localhost:8088 il s'agit du cluster Hadoop
